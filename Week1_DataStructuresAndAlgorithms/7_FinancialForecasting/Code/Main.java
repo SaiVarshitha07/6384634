@@ -1,4 +1,3 @@
-package Code;
 public class Main {
     public static void main(String[] args) {
         double presentValue = 10000;
