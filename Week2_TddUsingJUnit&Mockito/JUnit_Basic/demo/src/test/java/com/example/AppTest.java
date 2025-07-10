@@ -4,9 +4,13 @@ import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
 
+
+
 /**
  * Unit test for simple App.
  */
+
+// Exercise 1: Setting Up JUnit
 public class AppTest 
     extends TestCase
 {

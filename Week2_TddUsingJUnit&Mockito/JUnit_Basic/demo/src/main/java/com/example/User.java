@@ -1,6 +1,8 @@
 package com.example;
 
 public class User {
+    
+    // Exercise 4: Arrange-Act-Assert (AAA) Pattern, Test Fixtures, Setup and Teardown Methods in JUnit 
     private String name;
     private boolean active;
 

@@ -9,6 +9,7 @@ import org.junit.Test;
 
 public class AssertionsTest {
 
+    // Exercise 3: Assertions in JUnit
     @Test
     public void testAssertions() {
         assertEquals("Sum should be 5", 5, 2 + 3);

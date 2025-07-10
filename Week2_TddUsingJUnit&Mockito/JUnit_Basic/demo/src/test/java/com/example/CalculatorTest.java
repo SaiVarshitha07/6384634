@@ -4,6 +4,8 @@ import org.junit.Test;
 
 public class CalculatorTest {
 
+    // Exercise 2: Writing Basic JUnit Tests
+    //  Writing JUnit Tests for testAdd() and testSubtract()
     @Test
     public void testAdd() {
         Calculator calc = new Calculator();

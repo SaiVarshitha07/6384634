@@ -8,11 +8,15 @@
   <name>demo</name>
   <url>http://maven.apache.org</url>
   <dependencies>
+
+    <!--Exercise 1: Setting Up JUnit-->
+    <!-- Adding JUnit Dependency-->
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.13.2</version>
       <scope>test</scope>
     </dependency>
+    
   </dependencies>
 </project>

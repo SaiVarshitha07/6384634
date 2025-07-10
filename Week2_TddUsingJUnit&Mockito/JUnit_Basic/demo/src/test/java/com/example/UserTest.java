@@ -6,7 +6,7 @@ import org.junit.After;
 import org.junit.Test;
 
 public class UserTest {
-
+    // Using @Before and @After annotations for setup and teardown methods
     private User user;
 
     @Before
