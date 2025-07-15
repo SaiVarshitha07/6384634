@@ -2,8 +2,8 @@ package com.cognizant.orm_learn.model;
 
 import jakarta.persistence.*;
 
-// Hands on 4 Implementation
-// Difference between JPA, Hibernate and Spring Data JPA 
+// Hands On 2: Difference between JPA, Hibernate and Spring Data JPA 
+// Refer 2_DifferenceBetweenJpaHibernateAndSpringDataJPA Folder for the Output
 @Entity
 @Table(name = "Employee")
 public class Employee {

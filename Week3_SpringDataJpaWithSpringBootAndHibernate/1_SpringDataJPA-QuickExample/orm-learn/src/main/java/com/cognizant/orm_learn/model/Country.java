@@ -5,8 +5,7 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
-// Hands On 1 Implementation
-// Spring Data JPA - Quick Example 
+// Hands On 1: Spring Data JPA - Quick Example 
 @Entity
 @Table(name = "country")
 public class Country {

@@ -1,9 +1,9 @@
 package com.example;
 
-// Exercise 1: Mocking and Stubbing
+// Exercise 3: Mocking and Stubbing
 public interface ExternalApi {
     String getData();
 
-    // Exercise 2: Verifying Interactions
+    // Exercise 4: Verifying Interactions
     void sendData(String payload);
 }

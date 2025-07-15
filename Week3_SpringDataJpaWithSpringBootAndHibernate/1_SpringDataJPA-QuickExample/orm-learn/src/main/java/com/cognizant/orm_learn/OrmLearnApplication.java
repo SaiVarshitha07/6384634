@@ -46,8 +46,8 @@ public class OrmLearnApplication {
         LOGGER.info("End");
     }
 
-    // Hands On 4 Implementation
-    // Difference between JPA, Hibernate and Spring Data JPA
+    // Hands On 2: Difference between JPA, Hibernate and Spring Data JPA
+    // Refer 2_DifferenceBetweenJpaHibernateAndSpringDataJPA Folder for the Output
     private static void testAddEmployee() {
         LOGGER.info("Start");
         Employee employee = new Employee();

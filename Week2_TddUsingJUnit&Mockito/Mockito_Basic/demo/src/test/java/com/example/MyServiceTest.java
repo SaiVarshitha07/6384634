@@ -8,7 +8,7 @@ import static org.mockito.Mockito.when;
 
 public class MyServiceTest {
 
-    // Exercise 1: Mocking and Stubbing
+    // Exercise 3: Mocking and Stubbing
     @Test
     public void testExternalApi(){
         // Step 1: Creating a mock object for the external API
@@ -24,7 +24,7 @@ public class MyServiceTest {
         assertEquals("Mock Data", result);
     }
 
-    // Exercise 2: Verifying Interactions 
+    // Exercise 4: Verifying Interactions 
     @Test
     public void testVerifyInteraction() {
         // Step 1: Creating a mock object
