@@ -5,7 +5,7 @@ package com.example;
  *
  */
 
-// Exercise 1: Setting Up JUniy
+// Exercise 1: Setting Up JUnit
 public class App 
 {
     public static void main( String[] args )

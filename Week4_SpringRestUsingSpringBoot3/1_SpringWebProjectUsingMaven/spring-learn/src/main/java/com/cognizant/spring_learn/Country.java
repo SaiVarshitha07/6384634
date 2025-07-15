@@ -4,8 +4,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class Country {
-    // Hands On 4 Implementation
-    // Spring Core – Load Country from Spring Configuration XML 
+    // Hands On 2: Spring Core – Load Country from Spring Configuration XML 
+    // Refer 2_LoadCountryFromSpringConfigXml Folder for the Output
     private static final Logger LOGGER = LoggerFactory.getLogger(Country.class);
 
     private String code;

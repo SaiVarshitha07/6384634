@@ -9,28 +9,27 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 @SpringBootApplication
 public class SpringLearnApplication {
-    // Hands On 1 Implementation
-    // Create a Spring Web Project using Maven 
+    
+    // Hands On 1: Create a Spring Web Project using Maven 
     private static final Logger LOGGER = LoggerFactory.getLogger(SpringLearnApplication.class);
 
     public static void main(String[] args) {
         LOGGER.info("Starting SpringLearnApplication...");
         SpringApplication.run(SpringLearnApplication.class, args);
         LOGGER.info("SpringLearnApplication started successfully!");
-
+        
         displayCountry();
     }
-    // Hands On 4 Implementation
-    // Spring Core – Load Country from Spring Configuration XML 
+
+    // Hands On 2: Spring Core – Load Country from Spring Configuration XML
+    // Refer 2_LoadCountryFromSpringConfigXml Folder for the Output
     public static void displayCountry() {
-        LOGGER.debug("START - displayCountry()");
+        LOGGER.debug("Start - displayCountry()");
         ApplicationContext context = new ClassPathXmlApplicationContext("country.xml");
         Country country = (Country) context.getBean("country", Country.class);
-
         LOGGER.debug("Country Code: {}", country.getCode());
         LOGGER.debug("Country Name: {}", country.getName());
-
         LOGGER.debug("Country: {}", country.toString());
-        LOGGER.debug("END - displayCountry()");
+        LOGGER.debug("End - displayCountry()");
     }
 }

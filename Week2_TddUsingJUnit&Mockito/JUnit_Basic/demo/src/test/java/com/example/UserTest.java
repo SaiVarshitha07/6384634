@@ -6,6 +6,7 @@ import org.junit.After;
 import org.junit.Test;
 
 public class UserTest {
+    // Exercise 4: Arrange-Act-Assert (AAA) Pattern, Test Fixtures, Setup and Teardown Methods in JUnit
     // Using @Before and @After annotations for setup and teardown methods
     private User user;
 

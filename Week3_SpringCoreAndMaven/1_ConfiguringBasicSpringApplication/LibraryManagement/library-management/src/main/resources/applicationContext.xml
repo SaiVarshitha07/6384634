@@ -5,14 +5,12 @@
            http://www.springframework.org/schema/beans 
            http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <!-- Exercise 1-->
-    <!-- Configuring a Basic Spring Application-->
-    <!-- Defining BookRepository Bean-->
+    <!-- Exercise 1: Configuring a Basic Spring Application -->
+    <!-- Defining BookRepository Bean -->
     <bean id="bookRepository" class="com.library.repository.BookRepository" />
 
-    <!-- Exercise 2 -->
-    <!-- Implementing Dependency Injection-->
-    <!-- Defining BookService Bean and Injecting BookRepository-->
+    <!-- Exercise 2: Implementing Dependency Injection -->
+    <!-- Defining BookService Bean and Injecting BookRepository -->
     <bean id="bookService" class="com.library.service.BookService">
         <property name="bookRepository" ref="bookRepository" />
     </bean>
