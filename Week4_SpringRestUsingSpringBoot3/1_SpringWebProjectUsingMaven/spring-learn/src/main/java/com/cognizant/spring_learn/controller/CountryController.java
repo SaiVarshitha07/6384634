@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.cognizant.spring_learn.Country;
 
-// Hands On 2: REST Country Web Service
-// Refer 2_RestCountryWebService Folder for the Output
+// Hands On 4: REST Country Web Service
+// Refer 4_CountryWebService Folder for the Output
 @RestController
 public class CountryController {
 
