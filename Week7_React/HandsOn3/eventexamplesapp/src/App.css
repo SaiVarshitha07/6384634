@@ -1,0 +1,38 @@
+.container {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  color: green;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.button-stack button {
+  display: block;
+  margin: 10px 0;
+  padding: 8px 12px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.row label {
+  width: 100px;
+  font-weight: bold;
+}
+
+.row input,
+.row textarea {
+  padding: 5px;
+  width: 200px;
+}
+
+button[type="submit"] {
+  padding: 8px 16px;
+  margin-top: 10px;
+}
